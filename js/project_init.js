@@ -1,12 +1,11 @@
 
 
-  $(document).ready(function() {
+$(document).ready(function() {
+  // add in page loader 
+  $(".project-wrapper").append('<div id="pageloader"><img src="../imgs/loading.gif" /> </div>')
+});
 
-// add in page loader 
-$(".project-wrapper").append('<div id="pageloader"><img src="../imgs/loading.gif" /> </div>')
-
-
-
+$(window).load(function() {
     $('.project-slideshow').slick({
       dots: true,
       infinite: true,
@@ -15,8 +14,6 @@ $(".project-wrapper").append('<div id="pageloader"><img src="../imgs/loading.gif
       arrows: false,
       fade: true,
       adaptiveHeight: true
-
     });
-               
-  });
+});
 
