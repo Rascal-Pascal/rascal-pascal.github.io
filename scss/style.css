@@ -33,7 +33,16 @@ ul, dd {
   -o-padding-start: 0;
   padding-start: 0;
   list-style-type: none; }
+@font-face {
+font-family: Suisse;
+src: url('../css/fonts/suisse.otf') format("opentype");
+}
 
+@font-face {
+font-family: Suisse;
+font-weight: bold;
+src: url('../css/fonts/suisse.otf') format("opentype");
+}
 button {
   border: none;
   background: none; }
@@ -49,20 +58,20 @@ button:focus {
   outline: none; }
 
 body {
-  font-family: "Suisse BP Int'l",helvetica, arial, sans-serif;
+  font-family: Suisse,helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 23px;
   line-height: 22px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   background: #fff8fa; }
   @media screen and (max-width: 1280px) {
     body {
       font-size: 95%;
-      line-height: 85%; } }
+      line-height: 100%; } }
   @media screen and (max-width: 1024px) {
     body {
       font-size: 100%;
-      line-height: 90%; } }
+      line-height: 100%; } }
 
 dt, a {
   margin-top: 2px; }
