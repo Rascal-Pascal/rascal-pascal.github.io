@@ -1,3 +1,51 @@
+.slick-track:focus {outline:0;}
+.slick-slide:focus {outline:0;}
+.project-wrapper:focus {outline:0;}
+.project-slideshow:focus {outline:0;}
+.project-slideshow{
+   width: 100%;
+   overflow: visible;
+}
+.project-slideshow ul{
+  overflow: visible;
+list-style: none; position: relative; float: left; display: block; left: 50%;
+}
+.project-slideshow ul li { overflow: visible;background:none !important; position: relative; float: left; display: block !important; right: 50%; }
+
+.slick-active button{
+
+  border-bottom: 4px solid black;
+  overflow: visible;
+}
+button{
+  padding-bottom: 0px !important;
+  line-height: 1;
+}
+.slick-slide img {
+  margin: auto;
+}
+@media screen and (max-width: 1023px) {
+  .slick-track {
+    height:none;
+  }
+  .slick-slide img {
+    max-height:none;
+    width:100%;
+  //  width:none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .slick-track, .slick-slide {
+    height:100%;
+  }
+  .slick-slide img {
+    max-height:100%;
+    max-width:100%;
+    width:auto;
+  }
+}
+
+
 ::selection {
   background: black;
   color: white; }
@@ -229,17 +277,26 @@ header .bio {
     right: 110px;
     max-width: 50%;
     top: 105px; }
+
     @media screen and (max-width: 1280px) {
       .project-wrapper .project-slideshow {
-        max-width: 40%; } }
+        max-width: 37%; }
+      .project-wrapper .project-slideshow ul {
+          margin-top: -25px;
+          position: absolute;
+        }
+      }
+    .project-wrapper .project-slideshow ul {
+        margin-top: -30px;
+        position: absolute;
+    }
     @media screen and (max-width: 1024px) {
       .project-wrapper .project-slideshow {
         max-width: 80%; } }
     .project-wrapper .project-slideshow div img {
       max-width: 100%; }
-    .project-wrapper .project-slideshow ul {
-      margin-top: -20px;
-      position: absolute; }
+
+
       .project-wrapper .project-slideshow ul li {
         background: #fff8fa;
         display: inline-block; }

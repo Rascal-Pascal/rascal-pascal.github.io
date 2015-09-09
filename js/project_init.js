@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-  // add in page loader 
+  // add in page loader
   $(".project-wrapper").append('<div id="pageloader"><img src="../imgs/loading.gif" /> </div>')
 });
 
@@ -16,4 +16,3 @@ $(window).load(function() {
       adaptiveHeight: true
     });
 });
-

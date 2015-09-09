@@ -1,10 +1,10 @@
-// page loader 
+// page loader
 
   function loadOut(){
       $('#pageloader').fadeOut(400);
   }
   window.onload = function() {
-    loadOut();  
+    loadOut();
   }
 
 
@@ -15,7 +15,7 @@ function centerNav() {
   var imgWidth = $('.project-slideshow div img').width();
   var ulWidth = $('ul.slick-dots').width();
   var ulOffset = (imgWidth / 2) - (ulWidth / 2);
-  $('ul.slick-dots').css('margin-left', ulOffset);  
+  //$('ul.slick-dots').css('margin-left', ulOffset);  
 }
 
 
