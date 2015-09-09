@@ -109,9 +109,9 @@ body {
   font-family: Suisse,helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 23px;
-  line-height: 22px;
+  line-height: 27px;
   letter-spacing: 0.02em;
-  background: #fff8fa; }
+  background: #f8f8f8; }
   @media screen and (max-width: 1280px) {
     body {
       font-size: 95%;
@@ -122,16 +122,16 @@ body {
       line-height: 100%; } }
 
 dt, a {
-  margin-top: 2px; }
+  margin-top: 0px; }
 
 a {
   color: black;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 4px; }
+  margin-bottom: 0px; }
   a:hover {
-    border-bottom: 4px solid black;
-    margin-bottom: 0; }
+  	color: #000688; }
+  	
 
 .contact a {
   margin-bottom: 0;
@@ -166,23 +166,23 @@ header, .news, .imprint, .contact {
   position: fixed; }
 
 header, .news {
-  top: 50px; }
+  top: 25px; }
 
 .imprint, .contact {
-  bottom: 50px; }
+  bottom: 30px; }
 
 header, .contact {
-  left: 50px; }
+  left: 30px; }
 
 .news, .imprint {
-  right: 50px; }
+  right: 40px; }
 
 header .bio {
   width: 260px; }
 
 .projects {
   position: relative;
-  top: 140px; }
+  top: 170px; }
   .projects .accordion-wrapper, .projects .thumbnails-wrapper {
     display: inline-block; }
   .projects .thumbnails-wrapper {
@@ -193,7 +193,7 @@ header .bio {
       padding-left: 5%; }
   .projects .accordion-wrapper {
     width: 480px;
-    padding-left: 320px;
+    padding-left: 360px;
     z-index: 10000;
     position: relative; }
     @media screen and (max-width: 1280px) {
@@ -201,7 +201,7 @@ header .bio {
         padding-left: 220px; } }
     .projects .accordion-wrapper dt {
       border: none;
-      margin-bottom: 5px; }
+      margin-bottom: 0px; }
     .projects .accordion-wrapper h2 {
       margin-bottom: 25px; }
     .projects .accordion-wrapper h2, .projects .accordion-wrapper dd ul li a {
@@ -216,7 +216,7 @@ header .bio {
   position: absolute;
   width: 360px;
   top: 140px;
-  right: 50px;
+  right: 40px;
   z-index: 10000; }
   .twitter-widget h2 a {
     border: none; }
@@ -250,12 +250,12 @@ header .bio {
   .projects .accordion-wrapper {
     padding-left: 0; } }
 .project-wrapper {
-  margin-top: 50px; }
+  margin-top: 25px; }
   .project-wrapper .project-info, .project-wrapper .project-slideshow, .project-wrapper .close {
     display: inline-block;
     position: absolute; }
   .project-wrapper .project-info {
-    left: 110px;
+    left: 30px;
     width: 410px; }
     .project-wrapper .project-info div {
       margin-bottom: 25px; }
@@ -276,7 +276,7 @@ header .bio {
   .project-wrapper .project-slideshow {
     right: 110px;
     max-width: 50%;
-    top: 105px; }
+    top: 25px; }
 
     @media screen and (max-width: 1280px) {
       .project-wrapper .project-slideshow {
@@ -314,14 +314,14 @@ header .bio {
       left: 0; } }
 .imprint-wrapper {
   position: relative;
-  top: 50px;
+  top: 25px;
   width: 480px;
   padding-left: 420px; }
   .imprint-wrapper p {
     margin-bottom: 25px; }
   .imprint-wrapper .close {
     position: fixed;
-    top: 50px;
+    top: 25px;
     right: 50px; }
     .imprint-wrapper .close a {
       margin-bottom: 0;
