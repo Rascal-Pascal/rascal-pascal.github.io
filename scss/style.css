@@ -140,7 +140,8 @@ a {
     border-bottom: none; }
 
 .project-wrapper a {
-  border-bottom: 4px solid black; }
+//  border-bottom: 4px solid black; 
+}
 
 h1, h2, p {
   font-size: 1em;
