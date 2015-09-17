@@ -8,9 +8,9 @@
     loadOut();  
   }
 
-var r=Math.round(200+Math.random()*55);
-      var g=Math.round(200+Math.random()*55);
-      var b=Math.round(200+Math.random()*55);
+var r=Math.round(220+Math.random()*35);
+      var g=Math.round(220+Math.random()*35);
+      var b=Math.round(220+Math.random()*35);
       var s="rgb("+r+","+g+","+b+")";
       $('#pageloader').css("background-color",String(s));
       
