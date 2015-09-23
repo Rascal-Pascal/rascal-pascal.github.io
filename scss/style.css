@@ -14,7 +14,7 @@ list-style: none; position: relative; float: left; display: block; left: 50%;
 
 .slick-active button{
 
-  border-bottom: 4px solid black;
+  color: #000688;
   overflow: visible;
 }
 button{
@@ -23,6 +23,7 @@ button{
 }
 .slick-slide img {
   margin: auto;
+  cursor: pointer;
 }
 @media screen and (max-width: 1023px) {
   .slick-track {
@@ -153,7 +154,8 @@ strong {
   text-transform: uppercase; }
 
 #project-links dt {
-  cursor: pointer; }
+  cursor: pointer;
+  margin-left: 50px; }
 #project-links .open + dd {
   display: block; }
 #project-links .open:before {
@@ -193,7 +195,7 @@ header .bio {
       max-width: 30%;
       padding-left: 5%; }
   .projects .accordion-wrapper {
-    width: 480px;
+    width: 500px;
     padding-left: 360px;
     z-index: 10000;
     position: relative; }
@@ -257,7 +259,7 @@ header .bio {
     position: absolute; }
   .project-wrapper .project-info {
     left: 30px;
-    width: 410px; }
+    width: 440px; }
     .project-wrapper .project-info div {
       margin-bottom: 25px; }
     .project-wrapper .project-info .project-year {
@@ -302,7 +304,7 @@ header .bio {
         background: #fff8fa;
         display: inline-block; }
         .project-wrapper .project-slideshow ul li button:hover {
-          border-bottom: 4px solid black;
+          color: #000688;
           margin-bottom: -2px; }
 
 @media screen and (max-width: 1024px) {
@@ -316,7 +318,7 @@ header .bio {
 .imprint-wrapper {
   position: relative;
   top: 25px;
-  width: 480px;
+  width: 500px;
   padding-left: 420px; }
   .imprint-wrapper p {
     margin-bottom: 25px; }
@@ -325,6 +327,7 @@ header .bio {
     top: 25px;
     right: 50px; }
     .imprint-wrapper .close a {
+      font-size:23px;
       margin-bottom: 0;
       border-bottom: 0; }
       .imprint-wrapper .close a:hover {
