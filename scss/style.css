@@ -268,14 +268,6 @@ header .bio {
       right: 0; }
     .project-wrapper .project-info .project-description p {
       margin-bottom: 25px; }
-  .project-wrapper .close {
-    right: 110px;
-    z-index: 10000; }
-    .project-wrapper .close a {
-      padding: 0 0 22px 22px;
-      border: none; }
-      .project-wrapper .close a:hover {
-        border: none; }
   .project-wrapper .project-slideshow {
     right: 110px;
     max-width: 50%;
