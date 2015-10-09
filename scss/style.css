@@ -132,7 +132,7 @@ a {
   margin-bottom: 0px; }
   a:hover {
   	color: #000688; }
-  	
+
 
 .contact a {
   margin-bottom: 0;
@@ -141,7 +141,7 @@ a {
     border-bottom: none; }
 
 .project-wrapper a {
-//  border-bottom: 4px solid black; 
+//  border-bottom: 4px solid black;
 }
 
 h1, h2, p {
@@ -218,7 +218,7 @@ header .bio {
 .twitter-widget {
   position: absolute;
   width: 360px;
-  top: 140px;
+  top: 186px;
   right: 40px;
   z-index: 10000; }
   .twitter-widget h2 a {
@@ -322,15 +322,15 @@ header .bio {
   padding-left: 420px; }
   .imprint-wrapper p {
     margin-bottom: 25px; }
-  .imprint-wrapper .close {
+  .close {
     position: fixed;
     top: 25px;
     right: 50px; }
-    .imprint-wrapper .close a {
+    .close a {
       font-size:23px;
       margin-bottom: 0;
       border-bottom: 0; }
-      .imprint-wrapper .close a:hover {
+      .close a:hover {
         border-bottom: none; }
 
 div#pageloader {

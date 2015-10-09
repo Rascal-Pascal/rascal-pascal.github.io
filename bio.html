@@ -62,7 +62,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pascal Hien is a designer from Germany. His practice is split between Berlin, Paris and Milan. Currently he is a design resident at Fabrica research center in Treviso, Italy.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Driven by a curious and optimistic design method, his work wanders between function, elegance and strange carpets.</p>
-<img src="imgs/bio.jpg" omouseover="this.src='imgs/bio1.jpg'" omouseout="this.src='imgs/bio.jpg'" />
+<img src="imgs/bio.jpg" id="bioimage" />
 </div> <!-- / projects -->
 
 
@@ -91,7 +91,13 @@
 <script type="text/javascript" src="js/twitterFetcher_min.js"></script>
 
 <script src="js/index.js"></script>
-
+<script>
+$('#bioimage').hover(function() {
+$(this).attr('src', 'imgs/bio_cat.jpg');
+}, function() {
+$(this).attr('src', 'imgs/bio.jpg');
+});
+</script>
 
 
 <!-- analytics -->
