@@ -99,7 +99,7 @@ function getRandomArbitrary(min, max) {
   });
 
 // toggle news panel
-  var $twitter = $('.twitter-widget').hide();
+//var $twitter = $('.twitter-widget').hide();
   $('.news h2').click(function() {
     $twitter.toggle();
 
