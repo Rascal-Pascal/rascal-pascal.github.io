@@ -129,7 +129,7 @@ var config1 = {
   "id": '577594630809755649',
   "domId": 'twitter_feed',
   "maxTweets": 3,
-  "enableLinks": false,
+  "enableLinks": true,
   "showUser": false,
   "showTime" : false,
   "showInteraction" : false
