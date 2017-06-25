@@ -72,7 +72,7 @@
    		if(start!=-1)
     	 end = replacedData.indexOf("</a>",start);
     	if(end != -1)
-    	replacedData = replacedData.substr(0,start) + "<u>LINK</u>" +replacedData.substr(end,replacedData.length);
+    	replacedData = replacedData.substr(0,start) + "LINK" +replacedData.substr(end,replacedData.length);
    		if(end == -1)
    		break;
    		start = end;
